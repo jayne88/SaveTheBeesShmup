@@ -45,8 +45,8 @@ namespace Shmup {
                 plane.TakeDamage(10);
             }
 
-            Destroy(gameObject);
-        }*/
+            Destroy(gameObject);*/
+        }
         
         void DestroyParticleSystem(GameObject vfx) {
             var ps = vfx.GetComponent<ParticleSystem>();
@@ -56,5 +56,5 @@ namespace Shmup {
             Destroy(vfx, ps.main.duration);
         }
     }
-    }
 }
+
