@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 7203456168843122573}
   - component: {fileID: 950152213942105015}
   - component: {fileID: 6319269136233736520}
+  - component: {fileID: -7340419106455618543}
   m_Layer: 0
   m_Name: LaserSingle
   m_TagString: Untagged
@@ -107,3 +108,18 @@ CapsuleCollider:
   m_Height: 2
   m_Direction: 1
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &-7340419106455618543
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 921370536862462250}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8778de66713f0ff4c8e6ee51a23c8536, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 10
+  muzzlePrefab: {fileID: 100000, guid: 3156817f64ec68948ad6bb26569b9ef5, type: 3}
+  hitPrefab: {fileID: 2433282508537954060, guid: 3ef3ae421f71c5c4e97fe12dc2fc6312, type: 3}

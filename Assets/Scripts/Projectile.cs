@@ -15,12 +15,14 @@ namespace Shmup {
         public Action Callback;
         
         void Start() {
-            if (muzzlePrefab != null) {
+            //JP note This needs adding first
+
+            if (muzzlePrefab != null) { 
                 var muzzleVFX = Instantiate(muzzlePrefab, transform.position, Quaternion.identity);
                 muzzleVFX.transform.forward = gameObject.transform.forward;
                 muzzleVFX.transform.SetParent(parent);
                 
-                //DestroyParticleSystem(muzzleVFX);
+                DestroyParticleSystem(muzzleVFX);
                 
             }
         }
@@ -33,6 +35,8 @@ namespace Shmup {
         }
 
         void OnCollisionEnter(Collision collision) {
+            // JP note This needs adding first
+
             if (hitPrefab != null) {
                 ContactPoint contact = collision.contacts[0];
                 var hitVFX = Instantiate(hitPrefab, contact.point, Quaternion.identity);
@@ -49,6 +53,7 @@ namespace Shmup {
         }
         
         void DestroyParticleSystem(GameObject vfx) {
+            
             var ps = vfx.GetComponent<ParticleSystem>();
             if (ps == null) {
                 ps = vfx.GetComponentInChildren<ParticleSystem>();
