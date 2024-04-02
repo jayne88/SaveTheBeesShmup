@@ -1,5 +1,14 @@
 {
   "dependencies": {
+    "com.eflatun.scenereference": {
+      "version": "file:C:/Users/44786/Downloads/Eflatun.SceneReference-main/Eflatun.SceneReference-main/Eflatun.SceneReference/Packages/com.eflatun.scenereference",
+      "depth": 0,
+      "source": "local",
+      "dependencies": {
+        "com.unity.settings-manager": "2.0.1",
+        "com.unity.nuget.newtonsoft-json": "3.0.2"
+      }
+    },
     "com.unity.2d.sprite": {
       "version": "1.0.0",
       "depth": 0,
@@ -77,6 +86,13 @@
     },
     "com.unity.mathematics": {
       "version": "1.2.6",
+      "depth": 1,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.nuget.newtonsoft-json": {
+      "version": "3.2.1",
       "depth": 1,
       "source": "registry",
       "dependencies": {},
@@ -167,6 +183,12 @@
         "com.unity.modules.jsonserialize": "1.0.0"
       },
       "url": "https://packages.unity.com"
+    },
+    "devlocker.utils.scenereference": {
+      "version": "file:C:/Users/44786/Downloads/UnitySceneReference-1.0.6/UnitySceneReference-1.0.6",
+      "depth": 0,
+      "source": "local",
+      "dependencies": {}
     },
     "com.unity.modules.ai": {
       "version": "1.0.0",
