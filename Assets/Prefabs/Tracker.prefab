@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 2740551415063919522}
   - component: {fileID: 5892148495528008467}
   - component: {fileID: 5910462804695008850}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: Tracker
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -120,6 +120,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8778de66713f0ff4c8e6ee51a23c8536, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 3
-  muzzlePrefab: {fileID: 100002, guid: db50ab1c866680e4bb870bf5eb72dd3d, type: 3}
-  hitPrefab: {fileID: 1247311384876784, guid: 4adffb0018aeda44e9263f901167af1f, type: 3}
+  speed: 2
+  muzzlePrefab: {fileID: 1134129239631916, guid: 7e48ba6b1b968764490bbc70b66e3fe1, type: 3}
+  hitPrefab: {fileID: 3696007233179127096, guid: c248f95ffea8b8543bc7ad0fffe0216d, type: 3}
