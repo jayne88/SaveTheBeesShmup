@@ -206,7 +206,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e22fa8707f6a66c4eb9e16b6b9ad8ab3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  weaponStrategy: {fileID: 11400000, guid: e9005d6ad64ec7142b5b704e0a8f899e, type: 2}
+  weaponStrategy: {fileID: 11400000, guid: 31bcdc0fa8b1be4449033fccb4c84928, type: 2}
   firePoint: {fileID: 4185283079977244739}
   layer: 7
 --- !u!135 &2761171213069911113
@@ -270,3 +270,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxHealth: 10
+  explosionPrefab: {fileID: 1150934714579380, guid: 779aa8c25fbd0e1488637639c9fff976, type: 3}
+  OnSystemDestroyed:
+    m_PersistentCalls:
+      m_Calls: []
