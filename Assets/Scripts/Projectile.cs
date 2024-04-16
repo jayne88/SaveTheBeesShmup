@@ -41,7 +41,7 @@ namespace Shmup {
                 ContactPoint contact = collision.contacts[0];
                 var hitVFX = Instantiate(hitPrefab, contact.point, Quaternion.identity);
                 
-               // DestroyParticleSystem(hitVFX);
+                DestroyParticleSystem(hitVFX);
             }
             
             var plane = collision.gameObject.GetComponent<Plane>();
@@ -52,14 +52,14 @@ namespace Shmup {
             Destroy(gameObject);
         }
         
-        // void DestroyParticleSystem(GameObject vfx) {
+        void DestroyParticleSystem(GameObject vfx) {
             
-        //     var ps = vfx.GetComponent<ParticleSystem>();
-        //     if (ps == null) {
-        //         ps = vfx.GetComponentInChildren<ParticleSystem>();
-        //     }
-        //     Destroy(vfx, ps.main.duration);
-        // }
+            var ps = vfx.GetComponent<ParticleSystem>();
+            if (ps == null) {
+                ps = vfx.GetComponentInChildren<ParticleSystem>();
+            }
+            Destroy(vfx, ps.main.duration);
+        }
     }
 }
 
