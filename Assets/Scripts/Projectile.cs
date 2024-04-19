@@ -22,7 +22,7 @@ namespace Shmup {
                 muzzleVFX.transform.forward = gameObject.transform.forward;
                 muzzleVFX.transform.SetParent(parent);
                 
-               //DestroyParticleSystem(muzzleVFX);
+               Destroy(muzzleVFX);
                //This breaks it....^^   
             }
         }

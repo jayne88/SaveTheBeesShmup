@@ -15,5 +15,5 @@ MonoBehaviour:
   damage: 10
   fireRate: 0.5
   projectileSpeed: 10
-  projectileLifetime: 4
-  projectilePrefab: {fileID: 0}
+  projectileLifetime: 10
+  projectilePrefab: {fileID: 3394486587646966702, guid: 116313deb35debd468d825f4890b9776, type: 3}

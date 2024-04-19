@@ -95,7 +95,7 @@ GameObject:
   - component: {fileID: 5156452094796264543}
   - component: {fileID: 6713200981856729197}
   - component: {fileID: 3009124317436187508}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: HealthItem
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -111,7 +111,7 @@ Transform:
   m_GameObject: {fileID: 9169949063505658475}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: -1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -151,3 +151,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2f050dce227842b43a3879312671e11b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  amount: 10
