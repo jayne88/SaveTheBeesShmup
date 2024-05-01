@@ -5,8 +5,11 @@ namespace Shmup
     public class HealthItem : Item
     {
         void OnTriggerEnter(Collider other) {
-            other.GetComponent<Player>().AddHealth((int) amount);
-            Destroy(gameObject);
+            if (other.GetComponent<Player>() != null)
+            {
+                other.GetComponent<Player>().AddHealth((int) amount);
+                Destroy(gameObject);
+            }
         }
     }
 }

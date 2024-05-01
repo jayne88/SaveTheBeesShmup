@@ -6,7 +6,6 @@ namespace Shmup {
 
         void Update() {
             fireTimer += Time.deltaTime;
-            
             if (fireTimer >= weaponStrategy.FireRate) {
                 weaponStrategy.Fire(firePoint, layer);
                 fireTimer = 0f;

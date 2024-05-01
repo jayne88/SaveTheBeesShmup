@@ -4,8 +4,11 @@ namespace Shmup
 {
     public class FuelItem : Item {
         void OnTriggerEnter(Collider other) {
-            other.GetComponent<Player>().AddFuel(amount);
-            Destroy(gameObject);
+            if (other.GetComponent<Player>() != null)
+            {
+                other.GetComponent<Player>().AddFuel(amount);
+                Destroy(gameObject);
+            }
         }
     }
 }

@@ -11,13 +11,17 @@ namespace Shmup
 
         void Start() {
             foreach (var system in enemySystems) {
-                system.gameObject.SetActive(false);
+                //system.gameObject.SetActive(false);
             }
         }
         public void InitializeStage() {
+
             foreach (var system in enemySystems) {
-                system.gameObject.SetActive(true);
-            }
+                if (system.gameObject != null)
+                {
+                    system.gameObject.SetActive(true);
+                }
+            }            
         }
         public bool IsStageComplete() {
             return enemySystems.All(system => system == null || !(system.GetHealthNormalized() > 0));

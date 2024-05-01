@@ -192,8 +192,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 10
-  muzzlePrefab: {fileID: 100004, guid: 1c20c7996d683754db1f0f62a361952c, type: 3}
-  hitPrefab: {fileID: 1429954232896169633, guid: 83036083a4ebcd34f98131bd3cf6f4d2, type: 3}
+  muzzlePrefab: {fileID: 1391847458487284, guid: 9bf79f2d846a57440a981c168c87c617, type: 3}
+  hitPrefab: {fileID: 1250507045210962, guid: 3fe0df07025a3e747855b1bb671fc04e, type: 3}
 --- !u!114 &86746051336890195
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -228,8 +228,8 @@ SphereCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Radius: 0.35
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Radius: 0.49256074
+  m_Center: {x: 0, y: -0.020365834, z: 0}
 --- !u!54 &2484701418592135010
 Rigidbody:
   m_ObjectHideFlags: 0

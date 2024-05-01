@@ -14,7 +14,7 @@ namespace Shmup
         Boss boss;
         int score;
         float restartTimer = 3f;
-
+        
         public bool IsGameOver() => player.GetHealthNormalized() <= 0 || player.GetFuelNormalized() <= 0 || boss.GetHealthNormalized() <= 0;
         // TODO Add a next level for after boss dies
         

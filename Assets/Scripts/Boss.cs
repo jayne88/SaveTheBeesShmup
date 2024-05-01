@@ -41,6 +41,7 @@ namespace Shmup
             currentStage++;
             bossCollider.enabled = true;
 
+        
             if (currentStage < Stages.Count) {
                 InitializeStage();
             }
